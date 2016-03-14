@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>Assign 4</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+        <link rel="stylesheet" href="https://code.getmdl.io/1.1.2/material.blue_grey-red.min.css" />
+        <script defer src="https://code.getmdl.io/1.1.2/material.min.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+	  	<script type="text/javascript" src="myscript.js"></script>
+        <style>
+			.demo-list-action {
+			width: 300px;
+			}
+            input{
+                text-align: center;
+            }
+		</style>
+    </head>
+    <body>
+		<div id="actor_list" class="demo-list-action mdl-list"></div>
+        
+        <form action="index.html">
+            <div class="mdl-textfield mdl-js-textfield">
+	        <input class="mdl-textfield__input" type="text" id="actor_name" placeholder="Actor's Name"/>
+            </div>
+            <button id="new_actor" onclick="add_actor()" class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect" type="submit" value="submit">
+            	<i class="material-icons">add</i>
+            </button>
+
+      	</form>
+    </body>
+</html>

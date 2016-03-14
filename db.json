@@ -1,0 +1,34 @@
+{
+  "actors": [
+    {
+      "name": "Bryan Cranston",
+      "starred": false,
+      "id": 1
+    },
+    {
+      "name": "Aaron Paul",
+      "starred": true,
+      "id": 2
+    },
+    {
+      "name": "Bob Odenkirk",
+      "starred": false,
+      "id": 3
+    },
+    {
+      "id": 4,
+      "name": "Dean Norris",
+      "starred": false
+    },
+    {
+      "name": "Gaurang",
+      "starred": true,
+      "id": 5
+    },
+    {
+      "name": "Rohan",
+      "starred": true,
+      "id": 6
+    }
+  ]
+}
